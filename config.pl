@@ -60,9 +60,9 @@
 % Constants for general server connection specs
 :- setting(host, atom, 'chat.freenode.net', 'IRC host to connect to').
 :- setting(port, between(1,0x7FFF), 6667, 'Port to connect to').
-:- setting(nick, text, yesbot, 'Bots nick (name) on IRC').
-:- setting(pass, text, notpassword, 'Bots password.').
-:- setting(chans, list(text), [ '##prolog' ],
+:- setting(nick, text, kroy512, 'Bots nick (name) on IRC').
+:- setting(pass, text, notpassword, 'botspassword.').
+:- setting(chans, list(text), [ '#monadic.us' ],
 	'List of channels to connect to').
 
 :- setting(extensions, list(atom),
