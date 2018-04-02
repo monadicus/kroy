@@ -1,7 +1,12 @@
-Yesbot
-======
-### An IRC Bot Written in Prolog
+# KROY
 
+======
+## kroy is Prolog IRC bot for the MONADIC.US hacker co-op based on Yesbot. 
+
+Big thanks to dmile's for his work on Yesbot.  Really makes a difference when 
+hackers share great code.  This project hopes to support Yesbot.
+
+## Description
 * Multi-threaded extensible bot with a "pluggable" system.
 * Extensions are assumed to be mutually exclusive and will run concurrently.
 * Written with the SWI Prolog implementation -- [SWI Prolog Website](http://www.swi-prolog.org/)
@@ -9,6 +14,14 @@ Yesbot
 
 Configuration
 =============
+
+## Summary (Read ahead for details).
+1.  Install `irc_client`.
+2.  `swipl config.pl`
+3.  Change extensions if needed (not necessary to get going).
+4.  Change username, passwd, and nick using `set_setting(config:nick, kroy).`
+5.  Change channel using `set_setting(config:channel, '#monadicus').`
+5.  `save_settings.` will create a settings.db file in working dir to edit if needed.
 
 Before doing anything, you must first install the `irc_client` pack for SWI-Prolog from the interpreter
 ```prolog
