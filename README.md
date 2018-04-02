@@ -1,4 +1,4 @@
-# kroy ⤚  Prolog IRC bot for the MONADIC.US hacker co-op based on Yesbot. 
+# kroy ⤚  Prolog IRC bot for MONADIC.US 
 
 Big thanks to dmile's for his work on Yesbot.  Really makes a difference when 
 hackers share great code.  This project hopes to support Yesbot.
