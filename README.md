@@ -1,7 +1,4 @@
-# KROY
-
-======
-## kroy is Prolog IRC bot for the MONADIC.US hacker co-op based on Yesbot. 
+# kroy ⤚  Prolog IRC bot for the MONADIC.US hacker co-op based on Yesbot. 
 
 Big thanks to dmile's for his work on Yesbot.  Really makes a difference when 
 hackers share great code.  This project hopes to support Yesbot.
@@ -12,10 +9,9 @@ hackers share great code.  This project hopes to support Yesbot.
 * Written with the SWI Prolog implementation -- [SWI Prolog Website](http://www.swi-prolog.org/)
 
 
-Configuration
-=============
+## Configuration
 
-## Summary (Read ahead for details).
+### Summary (Read ahead for details).
 1.  Install `irc_client`.
 2.  `swipl config.pl`
 3.  Change extensions if needed (not necessary to get going).
@@ -67,8 +63,7 @@ Do be aware that the default logs the bot onto ##prolog and ##math
 Please bot responsibly.
 
 
-Running the bot
-===============
+## Running the bot
 After chmod 755 run.pl, execute the bot like such:
 ```prolog
 
@@ -76,8 +71,7 @@ After chmod 755 run.pl, execute the bot like such:
 
 ```
 
-Extending the bot
-=================
+## Extending the bot
 
 There are numerous demo plugins that come with Yesbot. A few of which includes a basic chat-logging
 extension and a TinyURL powered link shortener. The default setting for these extensions are the
