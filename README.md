@@ -1,6 +1,6 @@
 # kroy ⤚  Prolog IRC bot for MONADIC.US 
 
-Big thanks to dmile's for his work on Yesbot.  Really makes a difference when 
+Big thanks to eazar001's for his work on Yesbot.  Really makes a difference when 
 hackers share great code.  This project hopes to support Yesbot.
 
 ## Description
