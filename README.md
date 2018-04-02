@@ -11,13 +11,16 @@ hackers share great code.  This project hopes to support Yesbot.
 
 ## Configuration
 
-### Summary (Read ahead for details).
+### Summary (Detailed Instructions Follow).
+
 1.  Install `irc_client`.
 2.  `swipl config.pl`
 3.  Change extensions if needed (not necessary to get going).
 4.  Change username, passwd, and nick using `set_setting(config:nick, kroy).`
 5.  Change channel using `set_setting(config:channel, '#monadicus').`
 5.  `save_settings.` will create a settings.db file in working dir to edit if needed.
+
+### Details
 
 Before doing anything, you must first install the `irc_client` pack for SWI-Prolog from the interpreter
 ```prolog
